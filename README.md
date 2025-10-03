@@ -14,6 +14,7 @@ We also introduce the ​​Surface-Lane (SL) dataset​​, the first high-qual
 
 ## Key Features
 The Key Features are following:
+
 1.​​ Dual-branch Architecture​​: Combines global context modeling of Transformers with local feature extraction of CNNs.
 
 2. ​​Multi-scale Processing​​: Lightweight Multi-Scale (LMS) module handles varying road structures and lane scales.
