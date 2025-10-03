@@ -13,14 +13,19 @@ To address these challenges, we propose ​​SL-Seg​​, an end-to-end semant
 We also introduce the ​​Surface-Lane (SL) dataset​​, the first high-quality road and lane segmentation dataset tailored for complex surveillance scenarios.
 
 ## Key Features
-​​Dual-branch Architecture​​: Combines global context modeling of Transformers with local feature extraction of CNNs.
-​​Multi-scale Processing​​: Lightweight Multi-Scale (LMS) module handles varying road structures and lane scales.
-​​Occlusion Handling​​: Specialized Occlusion Relief Branch (ORB) addresses segmentation discontinuities.
-​​Real-time Performance​​: Achieves 56.74 FPS with high accuracy on surveillance camera.
+1.​​ Dual-branch Architecture​​: Combines global context modeling of Transformers with local feature extraction of CNNs.
+
+2. ​​Multi-scale Processing​​: Lightweight Multi-Scale (LMS) module handles varying road structures and lane scales.
+   
+3. ​​Occlusion Handling​​: Specialized Occlusion Relief Branch (ORB) addresses segmentation discontinuities.
+   
 
 ## Dataset
 We introduce the Surface-Lane (SL) dataset featuring:
-1345 high-resolution images (1920×1080).
-2685 road annotations + 5416 lane annotations.
-Three complex scenarios: Common, Vehicle-intensive, and Tunnel scenes.
-Diverse environmental conditions and occlusion challenges.
+1. 1345 high-resolution images (1920×1080).
+   
+2. 2685 road annotations + 5416 lane annotations.
+   
+3. Three complex scenarios: Common, Vehicle-intensive, and Tunnel scenes.
+   
+4. Diverse environmental conditions and occlusion challenges.
