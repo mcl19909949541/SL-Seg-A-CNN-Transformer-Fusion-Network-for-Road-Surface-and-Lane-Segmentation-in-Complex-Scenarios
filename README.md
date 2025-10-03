@@ -13,6 +13,7 @@ To address these challenges, we propose ​​SL-Seg​​, an end-to-end semant
 We also introduce the ​​Surface-Lane (SL) dataset​​, the first high-quality road and lane segmentation dataset tailored for complex surveillance scenarios.
 
 ## Key Features
+
 1.​​ Dual-branch Architecture​​: Combines global context modeling of Transformers with local feature extraction of CNNs.
 
 2. ​​Multi-scale Processing​​: Lightweight Multi-Scale (LMS) module handles varying road structures and lane scales.
